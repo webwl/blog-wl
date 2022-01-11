@@ -8,5 +8,6 @@
 - 工程化
   - [webpack](工程化/webpack.md)
 - vue
-  - [虚拟dom](vue/virtualDOM.md)
 - react
+- 框架通识
+  - [虚拟dom](vue/virtualDOM.md)
