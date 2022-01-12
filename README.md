@@ -11,3 +11,4 @@
 - react
 - 框架通识
   - ✔ [虚拟dom](vue/virtualDOM.md)
+  - ✔ [模块化](vue/模块化.md)
