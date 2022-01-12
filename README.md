@@ -10,4 +10,4 @@
 - vue
 - react
 - 框架通识
-  - [虚拟dom](vue/virtualDOM.md)
+  - ✔ [虚拟dom](vue/virtualDOM.md)
