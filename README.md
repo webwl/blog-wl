@@ -10,5 +10,5 @@
 - vue
 - react
 - 框架通识
-  - ✔ [虚拟dom](vue/virtualDOM.md)
-  - ✔ [模块化](vue/模块化.md)
+  - ✔ [虚拟dom](框架通识/virtualDOM.md)
+  - ✔ [模块化](框架通识/模块化.md)
