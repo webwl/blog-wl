@@ -9,7 +9,7 @@
   - ✔ [eventloop](浏览器/eventloop.md)
 - javaScript
   - ✔ [闭包](javaScript/闭包.md)
-  - ✔ [闭包](javaScript/闭包.md)
+  - ✔ [原型链](javaScript/原型链.md)
 - build
   - [webpack](build/webpack.md)
   - [vite](build/vite.md)
