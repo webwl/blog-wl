@@ -23,3 +23,5 @@
 - 框架通识
   - ✔ [虚拟dom](框架通识/virtualDOM.md)
   - ✔ [模块化](框架通识/模块化.md)
+- node
+  - [发布npm包](node/发布npm包.md)
