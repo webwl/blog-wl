@@ -24,4 +24,8 @@
   - ✔ [虚拟dom](框架通识/virtualDOM.md)
   - ✔ [模块化](框架通识/模块化.md)
 - node
-  - [发布npm包](node/发布npm包.md)
+  - npm
+    - [如何构建](node/npm/构建.md)
+    - [如何健壮](node/npm/健壮.md)
+    - ✔ [如何发布](node/npm/发布.md)
+    
