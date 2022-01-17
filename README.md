@@ -5,7 +5,7 @@
 
 完成打✔
 - 浏览器
-  - [缓存策略](浏览器/缓存策略.md)
+  - ✔ [缓存策略](浏览器/缓存策略.md)
   - ✔ [eventloop](浏览器/eventloop.md)
 - javaScript
   - ✔ [闭包](javaScript/闭包.md)
@@ -13,6 +13,7 @@
 - build
   - [webpack](build/webpack.md)
   - [vite](build/vite.md)
+  - [rollup](build/rollup.md)
 - vue
   - [生命周期](vue/生命周期.md)
   - [数据双向绑定原理](vue/数据双向绑定原理.md)
