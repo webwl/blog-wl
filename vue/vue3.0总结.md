@@ -96,6 +96,7 @@ console.log(isReactive(bar.foo)) // false
 ## 生命周期
 setup内部的生命周期和选项式API差别不大
 
+![官方setup生命周期对比](https://github.com/webwl/blog-wl/blob/dev/images/vue/setup%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E5%AF%B9%E6%AF%94.png)
 
 # 参考资料
 - [官网-组合式API教程](https://v3.cn.vuejs.org/guide/composition-api-introduction.html#%E4%BB%80%E4%B9%88%E6%98%AF%E7%BB%84%E5%90%88%E5%BC%8F-api)
