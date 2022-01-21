@@ -1,9 +1,10 @@
-目录
-  - [响应性API](#响应性API)
+[TOC]
+
+  <!-- - [响应性API](#响应性API)
     - [ref和reactive的区别](##ref和reactive的区别)
     - [ref与toRef，toRefs的区别](##ref与toRef，toRefs的区别)
     - [toRaw,markRaw](##toRaw,markRaw)
-  - [setup](#setup)
+  - [setup](#setup) -->
 # 响应性API
 ## ref和reactive的区别
 
@@ -97,6 +98,8 @@ console.log(isReactive(bar.foo)) // false
 setup内部的生命周期和选项式API差别不大
 
 ![官方setup生命周期对比](https://github.com/webwl/blog-wl/blob/dev/images/vue/setup%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E5%AF%B9%E6%AF%94.png)
+
+无法使用
 
 # 参考资料
 - [官网-组合式API教程](https://v3.cn.vuejs.org/guide/composition-api-introduction.html#%E4%BB%80%E4%B9%88%E6%98%AF%E7%BB%84%E5%90%88%E5%BC%8F-api)
