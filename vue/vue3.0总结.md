@@ -1,10 +1,13 @@
-[TOC]
+- [响应性API](#响应性api)
+  - [ref和reactive的区别](#ref和reactive的区别)
+  - [ref与toRef，toRefs的区别](#ref与toreftorefs的区别)
+  - [toRaw,markRaw](#torawmarkraw)
+    - [toRaw](#toraw)
+    - [markRaw](#markraw)
+- [setup](#setup)
+  - [生命周期](#生命周期)
+- [参考资料](#参考资料)
 
-  <!-- - [响应性API](#响应性API)
-    - [ref和reactive的区别](##ref和reactive的区别)
-    - [ref与toRef，toRefs的区别](##ref与toRef，toRefs的区别)
-    - [toRaw,markRaw](##toRaw,markRaw)
-  - [setup](#setup) -->
 # 响应性API
 ## ref和reactive的区别
 
@@ -67,7 +70,6 @@ setup(){
 ```
 
 ## toRaw,markRaw
-
 ### toRaw
 我们使用`ref`或`reactive`创建深拷贝了一份内容用来做响应式，如果我们希望获取到这个响应式对象的原始数据该怎么办？可以通过`toRaw`获取`ref`或`reactive`引用的原始数据。
 ```
