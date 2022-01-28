@@ -11,7 +11,8 @@
   - ✔ [闭包](javaScript/闭包.md)
   - ✔ [原型链](javaScript/原型链.md)
 - build
-  - [webpack](build/webpack.md)
+  - webpack
+    - [打包原理](build/webpack/打包原理.md) 
   - [vite](build/vite.md)
   - [rollup](build/rollup.md)
 - vue
@@ -19,7 +20,7 @@
   - [数据双向绑定原理](vue/数据双向绑定原理.md)
   - [computed原理](vue/computed原理.md)
   - [$nextTck原理](vue/$nextTck原理.md)
-  - [vue3.0总结](vue/vue3.0总结.md)
+  - [vue3.0要点笔记](vue/vue3.0要点笔记.md)
   - [vscode搭建vue3.0+vite+ts开发环境](vue/vue3+ts的vscode开发环境)
 - react
 - 框架通识
