@@ -19,7 +19,7 @@
   - [生命周期](vue/生命周期.md)
   - [数据双向绑定原理](vue/数据双向绑定原理.md)
   - [computed原理](vue/computed原理.md)
-  - [$nextTck原理](vue/$nextTck原理.md)
+  - [\$nextTck原理](vue/$nextTck原理.md)
   - [vue3.0要点笔记](vue/vue3.0要点笔记.md)
   - [vscode搭建vue3.0+vite+ts开发环境](vue/vue3+ts的vscode开发环境)
 - react
@@ -32,3 +32,5 @@
     - [如何健壮](node/npm/健壮.md)
     - ✔ [如何发布](node/npm/发布.md)
     - ✔ [本地调试](node/npm/本地调试.md)
+- 本地开发
+  - ✔ [风格校验与格式化](本地开发/风格校验与格式化.md)
