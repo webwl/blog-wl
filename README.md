@@ -13,6 +13,7 @@
 - build
   - webpack
     - [打包原理](build/webpack/打包原理.md) 
+    - [优化](build/webpack/优化.md) 
   - [vite](build/vite.md)
   - [rollup](build/rollup.md)
 - vue
