@@ -23,7 +23,7 @@
   - [数据双向绑定原理](vue/数据双向绑定原理.md)
   - [computed原理](vue/computed原理.md)
   - [\$nextTck原理](vue/$nextTck原理.md)
-  - [vue3.0要点笔记](vue/vue3.0要点笔记.md)
+  - [vue3部分API笔记](vue/vue3部分API笔记.md)
   - [vscode搭建vue3.0+vite+ts开发环境](vue/vue3+ts的vscode开发环境)
 - react
 - 框架通识
