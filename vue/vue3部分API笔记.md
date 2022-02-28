@@ -29,6 +29,35 @@ ref本质上就是`reactive，ref(obj)`等价于`reactive({value: obj})`
 
 `reactive`添加响应性后不可解构，否则失去响应性
 
+### reactive赋值
+#### 对象
+当将 `ref` 分配给 `reactive property` 时，`ref` 将被自动解包
+```
+const count = ref(1)
+const obj = reactive({})
+
+obj.count = count
+
+console.log(obj.count) // 1
+console.log(obj.count === count.value) // true
+```
+#### 数组
+```
+// 方案1：创建一个响应式对象，对象的属性是数组
+const state = reactive({
+    arr: []
+});
+state.arr = [1, 2, 3]
+
+// 方案2: 使用ref函数
+const state = ref([])
+state.value = [1, 2, 3]
+
+// 方案3: 使用数组的push方法
+const arr = reactive([])
+arr.push(...[1, 2, 3])
+```
+
 ## ref与toRef，toRefs的区别
 
 解构会使`reactive`设置的响应性消失。如果我们在`setup`中想要导出一个解构的响应对象该怎么办？
