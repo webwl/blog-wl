@@ -19,6 +19,7 @@
   - [vite](build/vite.md)
   - [rollup](build/rollup.md)
 - vue
+  - [数据双向绑定原理](vue/数据双向绑定原理.md)
   - [生命周期](vue/生命周期.md)
   - [数据双向绑定原理](vue/数据双向绑定原理.md)
   - [computed原理](vue/computed原理.md)
