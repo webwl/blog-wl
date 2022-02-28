@@ -62,7 +62,7 @@ var foo = new Foo();
 foo.classMethod()
 // TypeError: foo.classMethod is not a function
 ```
-==注意：静态方法可以与实例方法重名==
+注意：静态方法可以与实例方法重名
 
 ## 属性
 > 实例属性：可以继承，实例可使用
@@ -153,7 +153,7 @@ class Cat extends Animal {
 let a = new Animal('Jack');
 // index.ts(13,9): TS2674: Constructor of class 'Animal' is protected and only accessible within the class declaration.
 ```
-==注意：需要注意一点的是，当构造函数修饰为 protected 时，该类只允许被继承，不能实例化==
+注意：需要注意一点的是，当构造函数修饰为 protected 时，该类只允许被继承，不能实例化
 
 # super
 一直很纠结，super究竟是用来干嘛的，总结一下就是，纠结这里的，一定是原型链基础不牢靠的。看文档的工程中，脑海里也不能自动理顺关系。
@@ -191,7 +191,6 @@ class cat extends animal {
 ```
 看上面应该就很清楚了，调用super是为了调用父类的构造函数，在 constructor 中必须调用 super 方法，因为子类没有自己的 this 对象，而是继承父类的 this 对象，然后对其进行加工。
 
-白话版本
 super()的调用，相当于把父类的构造函数拼到自己身上来，然后自己再去添加自己特有的属性
 ```
 class cat extends animal {

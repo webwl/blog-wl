@@ -9,9 +9,20 @@
 - 浏览器
   - ✔ [缓存策略](浏览器/缓存策略.md)
   - ✔ [eventloop](浏览器/eventloop.md)
+- 微前端
+  - [一些疑问](浏览器/缓存策略.md)
 - javaScript
   - ✔ [闭包](javaScript/闭包.md)
   - ✔ [原型链](javaScript/原型链.md)
+  - ✔ [箭头函数](javaScript/箭头函数.md)
+  - ✔ [promise](javaScript/promise.md)
+  - ✔ [this](javaScript/this.md)
+  - ✔ [new](javaScript/new.md)
+- TypeScript
+  -  ✔ [基本介绍](TypeScript/基本介绍.md)
+  -  ✔ [个别知识梳理](TypeScript/个别知识梳理.md)
+  -  ✔ [class类](TypeScript/class类.md)
+  -  [声明文件](TypeScript/声明文件.md)
 - build
   - webpack
     - ✔ [打包原理](build/webpack/打包原理.md) 
