@@ -1,5 +1,9 @@
 - [响应性API](#响应性api)
   - [ref和reactive的区别](#ref和reactive的区别)
+    - [TODO 查一下ref和reactive的实现方式不同，一个是new class，一个是proxy](#todo-查一下ref和reactive的实现方式不同一个是new-class一个是proxy)
+    - [reactive赋值](#reactive赋值)
+      - [对象](#对象)
+      - [数组](#数组)
   - [ref与toRef，toRefs的区别](#ref与toreftorefs的区别)
   - [toRaw,markRaw](#torawmarkraw)
     - [toRaw](#toraw)
@@ -28,6 +32,8 @@ ref本质上就是`reactive，ref(obj)`等价于`reactive({value: obj})`
 `reactive`则不需要通过`value`去取，本身就已经是一个对象了，不用再去封装。
 
 `reactive`添加响应性后不可解构，否则失去响应性
+
+###   TODO 查一下ref和reactive的实现方式不同，一个是new class，一个是proxy
 
 ### reactive赋值
 #### 对象
