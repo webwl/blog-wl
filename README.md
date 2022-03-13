@@ -1,11 +1,13 @@
 # 简介
+
 记录一些学习笔记
 
 # 目录
 
-完成打✔
+完成打 ✔
+
 - 网络
-  -  ✔ [http](网络/http.md)
+  - ✔ [http](网络/http.md)
 - 浏览器
   - ✔ [缓存策略](浏览器/缓存策略.md)
   - ✔ [eventloop](浏览器/eventloop.md)
@@ -19,27 +21,33 @@
   - ✔ [this](javaScript/this.md)
   - ✔ [new](javaScript/new.md)
 - TypeScript
-  -  ✔ [基本介绍](TypeScript/基本介绍.md)
-  -  ✔ [个别知识梳理](TypeScript/个别知识梳理.md)
-  -  ✔ [class类](TypeScript/class类.md)
-  -  [声明文件](TypeScript/声明文件.md)
+  - ✔ [基本介绍](TypeScript/基本介绍.md)
+  - ✔ [个别知识梳理](TypeScript/个别知识梳理.md)
+  - ✔ [class 类](TypeScript/class类.md)
+  - [声明文件](TypeScript/声明文件.md)
 - build
   - webpack
-    - ✔ [打包原理](build/webpack/打包原理.md) 
-    - [优化](build/webpack/优化.md) 
+    - ✔ [打包原理](build/webpack/打包原理.md)
+    - [优化](build/webpack/优化.md)
   - [vite](build/vite.md)
   - [rollup](build/rollup.md)
 - vue
+  - nuxt.js
+    - [快速认识 nuxt](vue/nuxt.js/快速认识nuxt.md)
+    - [SSR](vue/nuxt.js/SSR.md)
+  - vue2
+    - [快速认识 nuxt](vue/vue2/生命周期.md)
+    - [newVue 时发生了什么](vue/vue2/newVue时发生了什么.md)
+  - vue3
+    - [vue3 部分 API 笔记](vue/vue3部分API笔记.md)
   - [数据双向绑定原理](vue/数据双向绑定原理.md)
-  - [生命周期](vue/生命周期.md)
-  - [数据双向绑定原理](vue/数据双向绑定原理.md)
-  - [computed原理](vue/computed原理.md)
-  - [\$nextTck原理](vue/$nextTck原理.md)
-  - [vue3部分API笔记](vue/vue3部分API笔记.md)
-  - ✔ [vscode搭建vue3.0+vite+ts开发环境](vue/vue3+ts的vscode开发环境)
+  - [computed 原理](vue/computed原理.md)
+  - [\$nextTck 原理](vue/$nextTck原理.md)
+
+    - ✔ [vscode 搭建 vue3.0+vite+ts 开发环境](vue/vue3+ts的vscode开发环境)
 - react
 - 框架通识
-  - ✔ [虚拟dom](框架通识/virtualDOM.md)
+  - ✔ [虚拟 dom](框架通识/virtualDOM.md)
   - ✔ [模块化](框架通识/模块化.md)
 - node
   - npm
