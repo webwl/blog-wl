@@ -1,0 +1,107 @@
+# 汉化
+- 在扩展中搜索Chinese (Simplified) Language Pack for Visual Studio Code，安装。
+- 安装完成后按快捷键【CTRL+SHILF+P】打开命令面板并输入【config】后找到【Configure Display Language】选项并点击。
+- 在接下来的二级菜单选择【zh-cn】，此时编辑器会弹出个访问窗口是否要重启编辑器生效语言的修改，点击【restart】按钮重新启动编辑器。
+
+
+# 常用扩展
+## Vue Language Features (Volar)
+vue3官方推荐语言支持插件
+
+## TypeScript Vue Plugin (Volar)
+vue3关于TS的插件
+
+## Vue 3 Snippets
+vue3 快捷输入。
+
+## Code Spell Checker
+英文拼写检查
+
+## Auto Close Tag
+自动绘制结尾标签。
+
+## Auto Rename Tag
+重命名标签时，自动修改对应的结尾标签。
+
+## Bracket Pair Colorizer 2
+高亮告诉你当前选择的作用域，括号内容过长时，分辨哪个是收尾的括号很方便。
+
+## Git History
+可以直接看到该行代码是谁提交的，当时的commit信息是什么。很方便撕逼用。
+
+## indent-rainbow
+这个扩展会用深色高亮的区域显示代码里缩进和其他行代码不一致的地方，非常醒目。
+
+## koroFileHeader
+在vscode中用于生成文件头部注释和函数注释的插件。（这插件在大家都是用的时候，合并代码时经常会需要解决冲突，因为大家的最后更新时间这个地方是不一样的。所以用不用自己考虑。）
+
+## Path Intellisense
+自动路径补全。
+
+## vscode-icons
+给文件添加图标，更加醒目。
+
+## ESlint
+前端规则校验。
+
+## Prettier - Code formatter
+代码格式化工具，与ESlint配合使用
+
+## Chinese (Simplified) Language Pack for Visual Studio Code
+VSCode中文包。
+
+## TODO Tree
+用来打标记，比如某些地方push前要删除，有些假数据需要替换的，标记起来，防止遗漏。
+
+## NestJs Snippets
+nestjs代码提示补全
+
+# 自定义代码模板
+文件-首选项-用户代码片段，输入vue，点击enter后进入vue.json文件，将下方代码完全覆盖掉以前内容，保存。
+```
+{
+	"Print to console": {
+	"prefix": "vue",
+	"body": [
+	"<template>",
+	"\t<div class=''>\n\t\t$2\n\t</div>",
+	"</template>",
+	"",
+	"<script>",
+	"\t//import x from ''",
+	"\texport default {",
+	"\t\tcomponents: {",
+	"",
+	"\t\t},",
+	"\t\tdata () {",
+	"\t\t\treturn {",
+	"",
+	"\t\t\t};",
+	"\t\t},",
+	"\t\tcomputed: {",
+	"",
+	"\t\t},",
+	"\t\tmethods: {",
+	"",
+	"\t\t},",
+	"mounted() {",
+	"",
+	"},",
+	"beforeCreate() {}, //生命周期 - 创建之前",
+	"beforeMount() {}, //生命周期 - 挂载之前",
+	"beforeUpdate() {}, //生命周期 - 更新之前",
+	"updated() {}, //生命周期 - 更新之后",
+	"beforeDestroy() {}, //生命周期 - 销毁之前",
+	"destroyed() {}, //生命周期 - 销毁完成",
+	"activated() {}, //如果页面有keep-alive缓存功能，这个函数会触发",
+	"\t}",
+	"</script>",
+	"",
+	"<style lang='scss' src=''>",
+	"</style>"
+	],
+	"description": "vue output to vue-template"
+	}
+}
+```
+保存好以后，新建一个vue文件。进去之后依然是空白的，不要慌，输入vue会有弹窗提醒，你会看到你创建的代码片段，enter确认选择，就自动生成代码了
