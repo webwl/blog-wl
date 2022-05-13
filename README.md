@@ -25,6 +25,7 @@
   - ✔ [个别知识梳理](TypeScript/个别知识梳理.md)
   - ✔ [class 类](TypeScript/class类.md)
   - [声明文件](TypeScript/声明文件.md)
+  - [泛型工具类型](TypeScript/泛型工具类型.md)
 - build
   - webpack
     - ✔ [打包原理](build/webpack/打包原理.md)
@@ -32,6 +33,7 @@
   - [vite](build/vite.md)
   - [rollup](build/rollup.md)
 - vue
+
   - nuxt.js
     - [快速认识 nuxt](vue/nuxt.js/快速认识nuxt.md)
     - [SSR](vue/nuxt.js/SSR.md)
@@ -45,6 +47,7 @@
   - [\$nextTck 原理](vue/$nextTck原理.md)
 
     - ✔ [vscode 搭建 vue3.0+vite+ts 开发环境](vue/vue3+ts的vscode开发环境)
+
 - react
 - 框架通识
   - ✔ [虚拟 dom](框架通识/virtualDOM.md)
@@ -57,3 +60,5 @@
     - ✔ [本地调试](node/npm/本地调试.md)
 - 本地开发
   - ✔ [风格校验与格式化](本地开发/风格校验与格式化.md)
+  - ✔ [网络代理](本地开发/网络代理.md)
+  - ✔ [vscode 插件](本地开发/vscode插件.md)
